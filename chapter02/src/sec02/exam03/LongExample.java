@@ -7,10 +7,9 @@ public class LongExample {
 		
 		long var1 = 10;
 		long var2 = 20L;
-		//long var3 = 10000000000; 컴파일 에러
+			//long var3 = 10000000000; 컴파일 에러
 		long var4 = 10000000000000L;
-		//long byte ing ----변수형 ,변수타입
-		
+			//long byte ing ----변수형 ,변수타입
 		System.out.println(var1);
 		System.out.println(var2);
 		System.out.println(var4);
