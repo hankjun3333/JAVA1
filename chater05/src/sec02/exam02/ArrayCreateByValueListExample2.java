@@ -24,3 +24,4 @@ public class ArrayCreateByValueListExample2 {
 		return sum;
 	}
 }
+		// 배열 연산자
