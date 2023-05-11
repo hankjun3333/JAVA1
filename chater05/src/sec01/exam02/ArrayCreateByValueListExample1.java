@@ -27,6 +27,5 @@ public class ArrayCreateByValueListExample1 {
 
 }
 
-//변수 선언을 하고 for문으로 합을 구하시오 하면 이렇게 해야됨
-
+		//변수 선언을 하고 for문으로 합을 구하시오 하면 이렇게 해야됨
 
