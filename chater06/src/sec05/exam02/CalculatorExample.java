@@ -10,6 +10,7 @@ public class CalculatorExample {
 	   
 	   //static은 생성자라 상관이 없어서 클래스.메소드 식으로 표현
 	   //static안붙으면 인스턴스 변수명.클래스 방식으로 표현
+	   //static은 생성자랑 같이못씀 인스턴스 변수
 	   	   
 	   
 	   System.out.println("result1 : " + result1);
