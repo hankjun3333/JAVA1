@@ -3,8 +3,8 @@ package sec02.exam03;
 public class ArrayCreateByNewExample {
 
 	public static void main(String[] args) {
-		//intí˜• ê°€ì§€ëŠ” ë°°ì—´ ì´ë¦„ì´ arr1 ì°¸ì¡°ë°°ì—´ í˜•íƒœì˜ ì„ ì–¸ ê¸¸ì´ 3ê°œ ì§œë¦¬ë¥¼ ì„ ì–¸í•´ ë³´ì„¸ìš”
-		//ê°¯ìˆ˜ëŠ” ìˆê³  ê°’ë§Œ ì—†ìœ¼ë‹ˆ ì´ë ‡ê²Œ í‘œê¸°
+		//intÇü °¡Áö´Â ¹è¿­ ÀÌ¸§ÀÌ arr1 ÂüÁ¶¹è¿­ ÇüÅÂÀÇ ¼±¾ğ ±æÀÌ 3°³ Â¥¸®¸¦ ¼±¾ğÇØ º¸¼¼¿ä
+		//°¹¼ö´Â ÀÖ°í °ª¸¸ ¾øÀ¸´Ï ÀÌ·¸°Ô Ç¥±â
 		int[] arr1 = new int[3]; 
 		
 		for(int i=0; i<3; i++) {
@@ -12,7 +12,7 @@ public class ArrayCreateByNewExample {
 			
 		}
 		System.out.println("");
-		//doubleí˜•ìœ¼ë¡œ arr2 ê¸¸ì´ 3ê°œ ì„ ì–¸
+		//doubleÇüÀ¸·Î arr2 ±æÀÌ 3°³ ¼±¾ğ
 		double[] arr2 = new double[3];
 		for(int i=0; i<3; i++) {
 			System.out.println("arr2[" + i + "] : " + arr2[1]);
@@ -20,22 +20,24 @@ public class ArrayCreateByNewExample {
 		arr2[0] = 0.1;
 		arr2[1] = 0.2;
 		arr2[2] = 0.3;
+		String[] arr3 = new String[3];
 		for(int i=0; i<3; i++) {
+			
 			System.out.println("arr3[" + i + "] : " + arr3[1]);
 		}
-		//ë°°ì—´ì€ í•œë²ˆ ê¸¸ì´ê°€ ì •í•´ì§€ë©´ ëª»ë°”ê¿”ì„œ ê¸´ê²ƒì„ ë‹¤ì‹œ ë§Œë“¤ê³  ë³µë¶™í•˜ëŠ”ì‹ìœ¼ë¡œ í•˜ì
-		//ë¬¸ìì—´ì„ ê°€ì§€ëŠ” ë°°ì—´ ì´ë¦„ì´ arr3 ì°¸ì¡° ë°°ì—´ í˜•íƒœì˜ ì„ ì–¸ ê¸¸ì´ 3ê°œ ì§œë¦¬ ì„ ì–¸í•˜ì‹œì˜¤
-		String[] arr3 = new String[3];
+		//¹è¿­Àº ÇÑ¹ø ±æÀÌ°¡ Á¤ÇØÁö¸é ¸ø¹Ù²ã¼­ ±ä°ÍÀ» ´Ù½Ã ¸¸µé°í º¹ºÙÇÏ´Â½ÄÀ¸·Î ÇÏÀÚ
+				//¹®ÀÚ¿­À» °¡Áö´Â ¹è¿­ ÀÌ¸§ÀÌ arr3 ÂüÁ¶ ¹è¿­ ÇüÅÂÀÇ ¼±¾ğ ±æÀÌ 3°³ Â¥¸® ¼±¾ğÇÏ½Ã¿À
+		
 		
 		
 		System.out.println("");
-		arr3[0] = "1ì›”";
-		arr3[1] = "2ì›”";
-		arr3[2] = "3ì›”";
+		arr3[0] = "1¿ù";
+		arr3[1] = "2¿ù";
+		arr3[2] = "3¿ù";
 		for(int i=0; i<3; i++) {
 			System.out.println("arr3[" + i + "] : " + arr3[1]);
 		
 
 	}
-
-}
+	}
+	}
