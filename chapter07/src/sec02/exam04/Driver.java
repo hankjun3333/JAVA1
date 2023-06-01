@@ -1,6 +1,6 @@
 package sec02.exam04;
 
-public class Driver extends Vehicle{ //Vehicle클래스 변수형 vehicle 변수 메소드안에 매개변수로 변수생성
+public class Driver{ //Vehicle클래스 변수형 vehicle 변수 메소드안에 매개변수로 변수생성
 	//Driver drive = new Driver();
 	
 	public void drive(Vehicle vehicle) { //var Vehicle vehicle = Bus bus
