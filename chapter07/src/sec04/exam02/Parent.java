@@ -16,6 +16,5 @@ public class Parent {
 }
 
 //부모가 명시적으로 생성자 만들엇을땐 자식에선 super()를 해줘야되고
-
 //여기서 this("대한민국"); 이건 String nation으로 들어갓다가
 //String nation 12번줄로 바로 들어감
